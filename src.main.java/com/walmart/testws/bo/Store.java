@@ -1,4 +1,4 @@
-package com.walmart.inventoryws.bo;
+package com.walmart.testws.bo;
 
 import java.util.Currency;
 import java.util.List;

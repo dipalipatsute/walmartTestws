@@ -1,4 +1,4 @@
-package com.walmart.inventoryws;
+package com.walmart.testws;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import java.util.Map;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-import com.walmart.inventoryws.bo.*;
+import com.walmart.testws.bo.*;
 
 
 public class DataCache implements ServletContextListener {

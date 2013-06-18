@@ -1,4 +1,4 @@
-package com.walmart.inventoryws;
+package com.walmart.testws;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,8 +14,8 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;
 
-import com.walmart.inventoryws.bo.Item;
-import com.walmart.inventoryws.bo.StoreItem;
+import com.walmart.testws.bo.Item;
+import com.walmart.testws.bo.StoreItem;
 
 @Path("items")
 public class ItemService extends BaseService{

@@ -1,4 +1,4 @@
-package com.walmart.inventoryws;
+package com.walmart.testws;
 
 public class BaseService {
 

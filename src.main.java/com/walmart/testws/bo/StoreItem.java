@@ -1,4 +1,4 @@
-package com.walmart.inventoryws.bo;
+package com.walmart.testws.bo;
 
 public class StoreItem {
 	private int storeId;

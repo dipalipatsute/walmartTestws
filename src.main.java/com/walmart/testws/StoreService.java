@@ -1,4 +1,4 @@
-package com.walmart.inventoryws;
+package com.walmart.testws;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.MediaType;
 
-import com.walmart.inventoryws.bo.Store;
+import com.walmart.testws.bo.Store;
 
 
 @Path("stores")

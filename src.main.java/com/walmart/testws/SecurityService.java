@@ -1,4 +1,4 @@
-package com.walmart.inventoryws;
+package com.walmart.testws;
 import java.util.Random;
 
 import javax.ws.rs.GET;

@@ -1,4 +1,4 @@
-package com.walmart.inventoryws;
+package com.walmart.testws;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
@@ -19,8 +19,10 @@ import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import com.walmart.inventoryws.bo.Item;
-import com.walmart.inventoryws.bo.StoreItem;
+import com.walmart.testws.DataCache;
+import com.walmart.testws.ItemService;
+import com.walmart.testws.bo.Item;
+import com.walmart.testws.bo.StoreItem;
 
 
 @RunWith(PowerMockRunner.class)
