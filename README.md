@@ -65,20 +65,9 @@ Concurrent data updates, to make sure application and database is capable of han
 	
 
 SCALABILITY:
-These are the important things to consider to increase scalability.\n
-- Use DB indexes wisely. Also use optimal data storage. Might want to consider partitions to improve search response.
-- Have multiple services running and available , and control it web server level. Load balancer etc. will play important role here.
+Things to consider
+- Use DB indexes wisely. use optimal data storage. Partitioning tables could be another option, as Partioning is useful for application that manage large volume of data.
+- Have multiple services running and available, configure web server , Load balancer etc. 
 	
-STEPS I FOLLOWED TO CREATE THIS APPLCIATION:
-- In eclipse, i created dynamic webproject
-- Updated proper listeners and url patterns in web.xml
-- Added jersey and junit jars
-- Configured tomcat server
-- created src.main.java and src.main.test folders
-- added core BO classes, and DataCache class.(this is acting as db for my application)
-- DataCache class implements ServletContextListener interface and hence data is loaded at server startup.
-- Added services , Security Service generates a token and maintains throughout the application.
-- all services are processing JSON only requests and producing json response
-- Auth token validation is done before processing all the services.
 
 
